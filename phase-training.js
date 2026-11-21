@@ -1,4 +1,4 @@
-import {samePhase} from './training-phases.js';
+import {samePhase,canonicalPhase,administrativePhase} from './training-phases.js';
 import {curriculumTemplates} from './designation-curricula.js';
 import {materialForPhase,materials} from './training-materials.js';
 import {model,matchesDesignation,phaseOf,original} from './training-workflow.js';
@@ -11,6 +11,18 @@ export function activeTraining(t,db){
  const scores=(t.scores||[]).filter(r=>inPhase(r)&&eligible(r,'Scoring_Template'));
  const assessments=(t.assessments||[]).filter(r=>(!department||r.department===department)&&(!r.curriculumId||inPhase(r)||t.stage==='Assessment')&&eligible(r,'Question_Bank'));
  return {checklist,scores,assessments,department};
+}
+// Whole-journey checklist progress. activeTraining() covers only the current stage, so it reads 0%
+// after a handover and in stages without a checklist (Final Feedback, Onboard Final Email, Asset Allotment).
+export function overallChecklistProgress(t,db){
+ const phases=new Set([...(t.phases||[]),t.stage,...(t.phaseHistory||[]).map(h=>h.phase)].filter(Boolean).map(canonicalPhase));
+ const rows=new Map();
+ for(const phase of phases){
+  if(administrativePhase(phase))continue;
+  for(const r of activeTraining({...t,stage:phase},db).checklist)if(!r.removed)rows.set(r.id??(r.module+'|'+r.topic),r);
+ }
+ const total=rows.size,covered=[...rows.values()].filter(r=>r.covered).length;
+ return {covered,total,percent:total?Math.round(covered/total*100):0};
 }
 export function phaseQuestions(t,db,academy){
  const department=phaseDepartment(t.stage),tpl=curriculumTemplates(t,db,model(db));

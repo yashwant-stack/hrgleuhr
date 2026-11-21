@@ -23,7 +23,7 @@ import {matchesDesignation} from './training-workflow.js';
 import {curriculumFor,curriculumView,curriculumText} from './designation-curricula.js';
 import {letterPdf} from './letter-pdf.js';
 import {certificatePdf} from './certificate-pdf.js';
-import {activeTraining,phaseQuestions,phaseScore,mentorReady,practicalMentorProgress,phaseDepartment} from './phase-training.js';
+import {activeTraining,overallChecklistProgress,phaseQuestions,phaseScore,mentorReady,practicalMentorProgress,phaseDepartment} from './phase-training.js';
 import {journeyStatus,journeyMutationStep,journeySteps} from "./journey.js";
 import {communicationService} from "./communications.js";
 import { materials, materialApplies, materialForPhase, materialPhases, materialContent, materialFile, normalizePhone } from "./training-materials.js";
@@ -225,6 +225,7 @@ export function createApp({
         materialIds: allMaterials().filter(m => materialForPhase(m,t,store.data)).map(m=>m.id),
         summary: summary(t),
         activeTraining:activeTraining(t,store.data),
+        overallProgress:overallChecklistProgress(t,store.data),
         phaseScore:phaseScore(t,store.data.records,store.data),
         testModules:[...new Map(phaseQuestions(t,store.data,academy).map(q=>[String(q.moduleId),{id:q.moduleId,title:q.moduleTitle||q.moduleId}])).values()],
         feedback: summary(t).feedback,

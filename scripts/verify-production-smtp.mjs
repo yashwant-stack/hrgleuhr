@@ -2,7 +2,7 @@ import {appUrl} from '../app-url.js';
 import {randomBytes} from 'node:crypto';
 import {withCloudStore} from '../cloud-store.js';
 const token=randomBytes(32).toString('hex');
-await withCloudStore(async(store,runtime)=>{const u=store.data.users.find(u=>u.email==='rahul.verma@gleuhr.com'&&u.active&&u.role==='admin');if(!u)throw Error('Authorized admin not found');runtime.sessions.set(token,{uid:u.id,until:Date.now()+120000});});
+await withCloudStore(async(store,runtime)=>{const u=store.data.users.find(u=>u.email===(process.env.ADMIN_EMAIL||'mizraem@gleuhr.com')&&u.active&&u.role==='admin');if(!u)throw Error('Authorized admin not found');runtime.sessions.set(token,{uid:u.id,until:Date.now()+120000});});
 try {
  const call=async action=>{const r=await fetch(appUrl()+'/api/action',{method:'POST',headers:{'Content-Type':'application/json',Origin:appUrl(),Cookie:'gleuhr_session='+token},body:JSON.stringify({action}),signal:AbortSignal.timeout(60000)});return {status:r.status,body:await r.json()};};
  const state=await call('state');console.log({sender:state.body.email?.from,configured:state.body.email?.configured});

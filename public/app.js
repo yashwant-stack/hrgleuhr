@@ -84,12 +84,15 @@ const isAdmin = () => S?.user.role === "admin";
 const owner = (t) =>
   S.users.find((u) => u.id === t.ownerId)?.name || t.ownerEmail || "Unassigned";
 const items = (t) => (t.activeTraining?.checklist||t.checklist||[]).filter((x) => !x.removed);
-const percent = (t) =>
+// Current stage's checklist only (pairs with items(t) counts on the checklist tab).
+const stagePercent = (t) =>
   items(t).length
     ? Math.round(
         (items(t).filter((x) => x.covered).length / items(t).length) * 100,
       )
     : 0;
+// Whole-journey progress: does not reset after a handover or in stages without a checklist.
+const percent = (t) => t.overallProgress?.percent ?? stagePercent(t);
 const average = (a) =>
   a.length ? (a.reduce((s, x) => s + x, 0) / a.length).toFixed(1) : "—";
 const scoreAvg = t => t.phaseScore==null?'—':Number(t.phaseScore).toFixed(1);
@@ -585,7 +588,7 @@ function sectionOverview(t) {
     'Modules & handbooks':['Your learning library','Role-specific resources, reviewed and ready for your next step.','materials',`${t.approvedMaterials?.filter(m=>t.materialIds?.includes(m.id)).length||0} approved`,`${t.materialIds?.length||0} eligible documents`],
     Summary:['The journey so far','A complete view of progress, strengths and the next milestone.','reports',`${percent(t)}% covered`,t.stage],
     'Removed items':['Review & restore','Keep the checklist relevant. Restore a topic whenever it is needed.','resources',`${t.checklist.filter(r=>r.removed).length+(t.archivedEntries?.length||0)} removed`,'Checklist management'],
-    Checklist:['One milestone at a time','Turn everyday learning into clear, measurable progress.','check',`${items(t).filter(r=>r.covered).length} / ${items(t).length} covered`,`${percent(t)}% complete`],
+    Checklist:['One milestone at a time','Turn everyday learning into clear, measurable progress.','check',`${items(t).filter(r=>r.covered).length} / ${items(t).length} covered`,`${stagePercent(t)}% complete`],
     Scores:['Skills in focus','Capture performance and recognise the areas ready to grow.','reports',`${(t.activeTraining?.scores||[]).filter(r=>r.score!=null).length} scored`,`${t.activeTraining?.scores.length||0} criteria`],
     Assessment:['Assessment ratings','Rate the current phase assessment.','questions',`${(t.activeTraining?.assessments||[]).filter(r=>r.score!=null).length} rated`,`${t.activeTraining?.assessments.length||0} questions`],
     Feedback:['Feedback that moves you forward','Bring strengths, opportunities and next steps together.','outbox',`${t.feedbackRows?.length||0} feedback rows`,'Trainer review'],
@@ -619,7 +622,7 @@ function detailContent(t) {
   if (section === "Summary") return workflowSummary(t);
   if (section === "Removed items") return workflowRemoved(t);
   if (section === "Checklist")
-    return `<div class="row"><p class="muted">${items(t).filter((x) => x.covered).length} / ${items(t).length} covered · ${percent(t)}%</p>${button("+ Add to checklist","addChecklist","","primary")}<div class="filters"><input id="topicSearch" placeholder="Find a topic" aria-label="Find topic"><select id="topicType" aria-label="Topic type">${options(["Theory", "Practical", "Removed"], "", "All types")}</select></div></div><div id="topicList">${checklist(t)}</div>${draftNotice(t,'checklist')}`;
+    return `<div class="row"><p class="muted">${items(t).filter((x) => x.covered).length} / ${items(t).length} covered · ${stagePercent(t)}%</p>${button("+ Add to checklist","addChecklist","","primary")}<div class="filters"><input id="topicSearch" placeholder="Find a topic" aria-label="Find topic"><select id="topicType" aria-label="Topic type">${options(["Theory", "Practical", "Removed"], "", "All types")}</select></div></div><div id="topicList">${checklist(t)}</div>${draftNotice(t,'checklist')}`;
   if (section === "Scores")
     return (draftNotice(t,'scores')+
       trainingRows(t,'scores')

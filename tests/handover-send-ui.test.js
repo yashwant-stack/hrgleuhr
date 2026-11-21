@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import vm from 'node:vm';import fs from 'node:fs';
+const source=fs.readFileSync(new URL('../public/workflow-ui.js',import.meta.url),'utf8');
+function fixture(failure){const calls=[],t={id:'t',version:3,handovers:[{id:'h',status:'Draft'}]};const c=vm.createContext({prepareHandoverEmail:async()=>calls.push('prepare'),S:{trainees:[t]},refresh:async()=>{},toast:()=>{},api:async(action)=>{calls.push(action);if(action==='communicationSend'&&failure)throw Error('SMTP unavailable');}});vm.runInContext(source.slice(source.indexOf('async function sendHandoverEmail'),source.indexOf('function departmentCompletion')),c);return {calls,run:()=>c.sendHandoverEmail('t','h')};}
+test('handover sends before transferring access',async()=>{const f=fixture();await f.run();assert.deepEqual(f.calls,['prepare','communicationSend','activateHandover']);});
+test('failed email never activates the transfer',async()=>{const f=fixture(true);await assert.rejects(f.run,/SMTP unavailable/);assert.deepEqual(f.calls,['prepare','communicationSend']);});

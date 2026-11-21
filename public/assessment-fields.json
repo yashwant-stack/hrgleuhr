@@ -1,0 +1,156 @@
+{
+  "trainee": [
+    [
+      "learnings",
+      "Key learnings from this department?",
+      null
+    ],
+    [
+      "independentTasks",
+      "Which tasks can you perform independently?",
+      null
+    ],
+    [
+      "support",
+      "What additional support is required?",
+      null
+    ],
+    [
+      "adequate",
+      "Was the training adequate?",
+      [
+        "Yes",
+        "Partly",
+        "No"
+      ]
+    ],
+    [
+      "ready",
+      "Are you ready for the next department?",
+      [
+        "Yes",
+        "With support",
+        "No"
+      ]
+    ]
+  ],
+  "trainer": [
+    [
+      "competent",
+      "Is the trainee competent?",
+      [
+        "Yes",
+        "Partly",
+        "No"
+      ]
+    ],
+    [
+      "independent",
+      "Can the trainee perform assigned tasks independently?",
+      [
+        "Yes",
+        "With support",
+        "No"
+      ]
+    ],
+    [
+      "gaps",
+      "What gaps remain?",
+      null
+    ],
+    [
+      "recommendation",
+      "Ready for transition or retraining?",
+      [
+        "Ready for transition",
+        "Retraining required"
+      ]
+    ]
+  ],
+  "hr": [
+    [
+      "departments",
+      "Training completion across departments?",
+      [
+        "Complete",
+        "Pending"
+      ]
+    ],
+    [
+      "discipline",
+      "Attendance and discipline?",
+      [
+        "Satisfactory",
+        "Needs improvement"
+      ]
+    ],
+    [
+      "feedback",
+      "All feedback and assessments submitted?",
+      [
+        "Yes",
+        "No"
+      ]
+    ],
+    [
+      "gaps",
+      "Any pending training gaps?",
+      null
+    ],
+    [
+      "documentation",
+      "Documentation completed?",
+      [
+        "Yes",
+        "No"
+      ]
+    ]
+  ],
+  "management": [
+    [
+      "competency",
+      "Role competency achieved?",
+      [
+        "Yes",
+        "Partly",
+        "No"
+      ]
+    ],
+    [
+      "behaviour",
+      "Professional behaviour?",
+      [
+        "Satisfactory",
+        "Needs improvement"
+      ]
+    ],
+    [
+      "patientHandling",
+      "Patient-handling standards?",
+      [
+        "Meets standards",
+        "Needs improvement",
+        "Not applicable"
+      ]
+    ],
+    [
+      "responsibilities",
+      "Suitable for assigned responsibilities?",
+      [
+        "Yes",
+        "With support",
+        "No"
+      ]
+    ],
+    [
+      "recommendation",
+      "Final deployment recommendation?",
+      [
+        "Recommended",
+        "Recommended with support",
+        "Further training required",
+        "Not recommended"
+      ]
+    ]
+  ]
+}

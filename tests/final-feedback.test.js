@@ -1,0 +1,34 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';
+import {createApp} from '../server.js';
+import {flowStatus} from '../training-flow.js';
+
+test('direct final feedback saves, assigns final review, and restarts only the selected department with HR/trainer notifications',async ctx=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'feedback-final-')),sent=[],app=createApp({dataDir:dir,scheduler:false,mailer:{configured:true,send:async m=>{sent.push(m);return {messageId:'mock'};}}});
+ await new Promise(r=>app.server.listen(0,'127.0.0.1',r));ctx.after(async()=>{await new Promise(r=>app.server.close(r));fs.rmSync(dir,{recursive:true,force:true});});let cookie;
+ const call=async(route,body)=>{const r=await fetch('http://127.0.0.1:'+app.server.address().port+route,{method:'POST',headers:{'Content-Type':'application/json',...(cookie?{cookie}:{})},body:JSON.stringify(body)});return {status:r.status,data:await r.json(),cookie:r.headers.get('set-cookie')?.split(';')[0]};};
+ const act=(action,payload={})=>call('/api/action',{action,payload,includeState:true});
+ cookie=(await call('/api/setup',{name:'HR',email:'hr@example.test',password:'test-password-long'})).cookie;
+ const trainer=(await act('createUser',{name:'Assigned trainer',email:'trainer@example.test',password:'test-password-long',role:'trainer'})).data;
+ const other=(await act('createUser',{name:'Unrelated trainer',email:'other@example.test',password:'test-password-long',role:'trainer'})).data;
+ const created=(await act('createTrainee',{name:'Demo learner',designation:'Counsellor',email:'learner@example.test',branch:'Test clinic',department:'Training',ownerId:app.store.data.users[0].id})).data;
+ const get=()=>app.store.data.trainees.find(x=>x.id===created.id);let t=get();
+ t.stage='Final Feedback';t.flowEnabled=true;t.trainingFlow={'CRM & Tech Training':{steps:{Educate:{complete:true}},evaluations:{TheoryEvaluation:{score:6,ratings:[]}}}};
+ t.checklist.push({id:'target',phase:'CRM & Tech Training',type:'Theory',topic:'Demo task',module:'Custom',custom:true,covered:true},{id:'other',phase:'Sales Training',type:'Theory',topic:'Other department',module:'Custom',custom:true,covered:true});
+ t.phaseHistory=[{phase:'Induction',certificate:{id:'keep',phase:'Induction'}}];
+ assert.deepEqual(flowStatus(t,app.store.data),[]);
+ const values={rating:'Good',completion:'Incomplete',strengths:'Patient communication',improve:'CRM practice',comments:'Repeat CRM with trainer guidance',decision:'save'};
+ let r=await act('finalFeedback',{traineeId:t.id,version:t.version,...values});assert.equal(r.status,200);assert.equal(get().stage,'Final Feedback');assert.equal(sent.length,1);assert.equal(r.data.state.trainees[0].trainingFlowStatus.length,0);
+ r=await act('finalFeedback',{traineeId:t.id,version:get().version,...values,decision:'continue',ownerId:trainer.id});assert.equal(r.status,400);
+ r=await act('finalFeedback',{traineeId:t.id,version:get().version,...values,completion:'Complete',decision:'continue',ownerId:trainer.id});assert.equal(r.status,200);assert.equal(get().stage,'Onboard Final Email');assert.equal(get().ownerId,trainer.id);assert.equal(sent.length,3);assert.ok(sent[2].html.includes('?trainee='+t.id));get().stage='Final Feedback';
+ cookie=(await call('/api/login',{email:other.email,password:'test-password-long'})).cookie;
+ r=await act('finalFeedback',{traineeId:t.id,version:get().version,...values});assert.equal(r.status,403);
+ cookie=(await call('/api/login',{email:trainer.email,password:'test-password-long'})).cookie;
+ r=await act('finalFeedback',{traineeId:t.id,version:get().version,...values,decision:'restart',restartPhase:'Final Feedback',ownerId:trainer.id});assert.equal(r.status,400);
+ const version=get().version;
+ r=await act('finalFeedback',{traineeId:t.id,version,...values,decision:'restart',restartPhase:'CRM & Tech Training',ownerId:trainer.id});assert.equal(r.status,200);t=get();
+ assert.equal(t.stage,'CRM & Tech Training');assert.equal(t.checklist.find(r=>r.id==='target').covered,false);assert.equal(t.checklist.find(r=>r.id==='other').covered,true);
+ assert.equal(t.trainingRestarts[0].flow.evaluations.TheoryEvaluation.score,6);assert.equal(t.trainingRestarts[0].checklist.find(r=>r.id==='target').covered,true);
+ assert.equal(t.phaseHistory[0].certificate.id,'keep');assert.equal(t.trainingFlow[t.stage].evaluations.TheoryEvaluation,undefined);assert.equal(flowStatus(t,app.store.data).find(s=>!s.complete).key,'Educate');
+ const restart=sent.at(-1);assert.deepEqual(new Set(restart.to.split(', ')),new Set(['trainer@example.test','hr@example.test']));assert.ok(!restart.to.includes('learner@example.test'));assert.match(restart.html,/Open assigned training/);
+ const repeat=await act('finalFeedback',{traineeId:t.id,version,...values,decision:'restart',restartPhase:'CRM & Tech Training',ownerId:trainer.id});assert.equal(repeat.status,409);assert.equal(sent.length,4);
+});

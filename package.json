@@ -1,0 +1,21 @@
+{
+  "name": "gleuhr-people-academy",
+  "version": "2.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env server.js",
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test tests/*.test.js",
+    "backup": "node scripts/backup.js",
+    "check": "node scripts/check.js"
+  },
+  "dependencies": {
+    "nodemailer": "^10.3.1",
+    "pdfkit": "^0.20.2",
+    "pg": "^8.23.1"
+  }
+}

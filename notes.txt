@@ -1,0 +1,7 @@
+add a trainee mein name jab likh rahe hai toh first character capital hona chahiye by default.
+
+
+
+email id wala point mizream se lena hai.
+
+welcome letter mizream se lena hai.

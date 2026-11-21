@@ -1,0 +1,9 @@
+.env*
+.vercel
+node_modules
+data
+backups
+reference
+tests
+.agents
+.git

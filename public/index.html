@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gleuhr · People & Academy</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/design.css" />
+    <link rel="stylesheet" href="/atelier.css" />
+    <link rel="stylesheet" href="/refined.css" />
+    <meta name="theme-color" content="#342329" />
+    <script src="/workflow-ui.js" defer></script>
+    <script src="/material-search.js" defer></script>
+    <script src="/hr-ui.js" defer></script>
+    <script src="/milestones.js" defer></script>
+    <script src="/tickets-ui.js" defer></script>
+    <script src="/lifecycle-ui.js" defer></script>
+    <script src="/transition-ui.js" defer></script>
+    <script src="/step-help.js" defer></script>
+    <script src="/curriculum-ui.js" defer></script>
+    <script src="/app.js" defer></script>
+    <link rel="stylesheet" href="/help-chat.css" />
+    <script src="/portal-help.js" defer></script>
+    <script src="/help-chat.js" defer></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <dialog id="modal">
+      <form id="modalForm">
+        <div class="row">
+          <h2 id="modalTitle"></h2>
+          <button
+            type="button"
+            id="closeModal"
+            class="quiet"
+            aria-label="Close"
+          >
+            ✕
+          </button>
+        </div>
+        <div id="modalFields"></div>
+        <p id="modalError" role="alert"></p>
+        <button class="primary" id="modalSubmit">Save</button>
+      </form>
+    </dialog>
+    <dialog id="milestoneDialog" aria-labelledby="milestoneTitle" aria-describedby="milestoneMessage">
+      <button type="button" id="milestoneClose" aria-label="Close completion popup">✕</button>
+      <div class="milestone-emblem" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="m12 24 8 8 16-17"/></svg></div>
+      <p class="milestone-kicker">A MOMENT TO CELEBRATE</p>
+      <h2 id="milestoneTitle"></h2><p id="milestoneDetail"></p>
+      <p id="milestoneMessage"></p><div id="milestoneProgress" aria-label="Journey progress"></div>
+      <button type="button" id="milestoneNext">Continue</button>
+      <small>Progress saved · Keep growing</small>
+    </dialog>
+  </body>
+</html>

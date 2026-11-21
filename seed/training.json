@@ -1,0 +1,3267 @@
+{
+  "Checklist_Template": [
+    {
+      "Module": "Induction",
+      "Topic": "Company introduction & history",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Induction",
+      "Topic": "Vision, mission & core values",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Induction",
+      "Topic": "Clinics network & skincare product line overview",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Induction",
+      "Topic": "Organisation structure & key contacts",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Induction",
+      "Topic": "Clinic / office tour",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Induction",
+      "Topic": "HRMS login & attendance process",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Induction",
+      "Topic": "Meet the team",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Company Policy",
+      "Topic": "Code of conduct",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Company Policy",
+      "Topic": "Attendance & leave policy",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Company Policy",
+      "Topic": "Dress code & grooming",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Company Policy",
+      "Topic": "POSH policy",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Company Policy",
+      "Topic": "Data privacy & confidentiality",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Company Policy",
+      "Topic": "Salary, PF & payroll process",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Company Policy",
+      "Topic": "IT & asset usage policy",
+      "Phase": "Induction",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Behavioral Discipline",
+      "Topic": "Client / patient handling etiquette",
+      "Phase": "Onboarding",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Behavioral Discipline",
+      "Topic": "Communication & email etiquette",
+      "Phase": "Onboarding",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Behavioral Discipline",
+      "Topic": "Conflict handling",
+      "Phase": "Onboarding",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Behavioral Discipline",
+      "Topic": "Escalation matrix",
+      "Phase": "Onboarding",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Behavioral Discipline",
+      "Topic": "Workplace discipline & punctuality",
+      "Phase": "Onboarding",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Cultural Fit",
+      "Topic": "Values scenario discussion",
+      "Phase": "Onboarding",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Cultural Fit",
+      "Topic": "Team interaction observation",
+      "Phase": "Onboarding",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Cultural Fit",
+      "Topic": "One-to-one feedback session",
+      "Phase": "Onboarding",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Cultural Fit",
+      "Topic": "Trainer review & observations",
+      "Phase": "Onboarding",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Opening & Hygiene",
+      "Topic": "BM shift timeline: 9:30 AM to 7:00 PM, task by task",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Opening & Hygiene",
+      "Topic": "Clinic opening, room readiness & 9:45 AM photo + confirmation",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Opening & Hygiene",
+      "Topic": "Morning briefing (reception 5, housekeeping 5, counsellors 10 min)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Opening & Hygiene",
+      "Topic": "Photo rounds every 2 hrs (11:30, 1:30, 3:30, 5:30)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Opening & Hygiene",
+      "Topic": "Hygiene standards, washroom checklist & weekly deep-clean",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Opening & Hygiene",
+      "Topic": "BM-Doctor meeting & same-day MoM",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Opening & Hygiene",
+      "Topic": "FDM handover: closing audit, signed slip & 8 PM debrief",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Stock & Requisition",
+      "Topic": "Daily stock sheet update & morning physical count",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Stock & Requisition",
+      "Topic": "Recording in pieces/bottles (not boxes) & expiry tracking",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Stock & Requisition",
+      "Topic": "Reporting stock mismatch to RH & Operations",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Stock & Requisition",
+      "Topic": "No unauthorised Zoho adjustments / inter-branch transfers",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Stock & Requisition",
+      "Topic": "Receiving stock: verification against documents",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Stock & Requisition",
+      "Topic": "Physical stock audit & audit report to Operations",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Stock & Requisition",
+      "Topic": "Stock-intent cycle (1st/15th reminder, 3rd-5th, 16th-18th)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Stock & Requisition",
+      "Topic": "RH approval flow & fulfilment targets (10th / 22nd)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Reporting & Issues",
+      "Topic": "BM Daily Log, BM EOD report & stock report (separate, by 7 PM)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Reporting & Issues",
+      "Topic": "WhatsApp summary to RH & handover note for FDM",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Reporting & Issues",
+      "Topic": "Issue Tracker entry: owner, target date, status",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Reporting & Issues",
+      "Topic": "Escalating critical issues (machine, security, patient safety)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Reporting & Issues",
+      "Topic": "Closure evidence & follow-up until resolved",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Reporting & Issues",
+      "Topic": "Coordination with RH, audits & corrective actions",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Reporting & Issues",
+      "Topic": "Non-negotiables: no missed reports, no backdated entries",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Petty Cash & Cash Recon",
+      "Topic": "Weekly petty cash allocation (Rs 4,000) & limits",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Petty Cash & Cash Recon",
+      "Topic": "Approval rules: above Rs 500, emergency, replenishment below Rs 1,000",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Petty Cash & Cash Recon",
+      "Topic": "Airtable entries with bills / vouchers / signatures",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Petty Cash & Cash Recon",
+      "Topic": "Weekly cycle: Tue submission, Thu reconciliation, Fri payment",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Petty Cash & Cash Recon",
+      "Topic": "Day-end Cash, Card & UPI reconciliation (6:30 PM cut-off)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Petty Cash & Cash Recon",
+      "Topic": "Denomination-wise cash entry & variance explanation",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Petty Cash & Cash Recon",
+      "Topic": "Sealed cash envelope, card slip & reconciliation photos",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Petty Cash & Cash Recon",
+      "Topic": "Late billing after cut-off: FDM slip checked at 9:30 AM",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Patient Records & CRM",
+      "Topic": "Airtable same-day entries & correct patient status",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Patient Records & CRM",
+      "Topic": "Customer type, clinic name, payment mode & amount",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Patient Records & CRM",
+      "Topic": "Old-client check using clinic-card photo",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Patient Records & CRM",
+      "Topic": "CRM process: token payment, custom plan, package conversion",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Patient Records & CRM",
+      "Topic": "Complimentary products & Rs 1 billing rule",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Patient Records & CRM",
+      "Topic": "Courier / pickup details & prescription portal",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Patient Records & CRM",
+      "Topic": "G-Money portal & Easy No-Cost EMI process",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Patient Records & CRM",
+      "Topic": "Complaints & patient follow-ups tracked to closure",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Machines, CCTV & Security",
+      "Topic": "Machine tracker: make, serial number, repair status",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Machines, CCTV & Security",
+      "Topic": "Reporting faults & technician troubleshooting before repair",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Machines, CCTV & Security",
+      "Topic": "Infrastructure issues: lift, inverter, laptop, electrical",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Machines, CCTV & Security",
+      "Topic": "CCTV always recording; verify after using the app",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Machines, CCTV & Security",
+      "Topic": "Security incident documentation & escalation",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Staff & Roster",
+      "Topic": "Daily attendance, late arrivals & reasons",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Staff & Roster",
+      "Topic": "Dress code, badges & grooming (no round-neck T-shirts)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Staff & Roster",
+      "Topic": "Weekly roster incl. Sunday coverage",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Staff & Roster",
+      "Topic": "Duty assignment & WhatsApp confirmation",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Staff & Roster",
+      "Topic": "Coordinating with RH & HR on shortages / replacements",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Staff & Roster",
+      "Topic": "Confirming team understands a new process before go-live",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Ops: Practical Sign-off",
+      "Topic": "Shadowed one full BM shift (9:30 AM to 7:00 PM)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Practical Sign-off",
+      "Topic": "Ran opening & morning briefing independently",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Practical Sign-off",
+      "Topic": "Completed stock sheet & physical count independently",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Practical Sign-off",
+      "Topic": "Submitted EOD report & stock report on time",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Practical Sign-off",
+      "Topic": "Completed day-end reconciliation (trainer checked)",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Practical Sign-off",
+      "Topic": "Raised an issue in tracker and followed it to closure",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Ops: Practical Sign-off",
+      "Topic": "Ops trainer final sign-off",
+      "Phase": "Operations Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Role, KRA & KPI",
+      "Topic": "Role purpose & reporting line (BM, then Manisha for sales)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Role, KRA & KPI",
+      "Topic": "Four KRAs: Convert, Hold, Document, Stand by the brand",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Role, KRA & KPI",
+      "Topic": "Five core KPIs & supporting KPIs",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Role, KRA & KPI",
+      "Topic": "Consequences framework: KPI miss, written notice, PIP",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Role, KRA & KPI",
+      "Topic": "Operating rhythm: daily self-checklist, 6 PM BM debrief, weekly list",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Role, KRA & KPI",
+      "Topic": "Audit rubric: 6 sections, score out of 100, Green / Amber / Red",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Six-Step Consultation",
+      "Topic": "Six steps in order & how a consultation should feel",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Six-Step Consultation",
+      "Topic": "Rapport: open the door, greet by name, seat, tea / coffee / water",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Six-Step Consultation",
+      "Topic": "Rapport: six data points & the 5-7 minute rule",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Six-Step Consultation",
+      "Topic": "Diagnose: four beats (name, explain why, testimonial, inside-out)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Six-Step Consultation",
+      "Topic": "Diagnose without hedge words and without outcome promises",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Six-Step Consultation",
+      "Topic": "Treatment process: internal (diet) + external (serum) tracks",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Six-Step Consultation",
+      "Topic": "Framing \"14 sessions, 5-7 visits\" & visit timing (same day, 1 week, 15-20 days)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Six-Step Consultation",
+      "Topic": "Mock consultation, Steps 1-3, observed by trainer",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Package & Pricing Math",
+      "Topic": "14-session custom package breakdown & MRP",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Package & Pricing Math",
+      "Topic": "Anchor the discount to her booking; use the calculator in front of her",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Package & Pricing Math",
+      "Topic": "Products (core trio) calculated in front of the client",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Package & Pricing Math",
+      "Topic": "Diet plan tiers & always recommending 6 months",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Package & Pricing Math",
+      "Topic": "Build-up to the total, then one-shot offer only after her yes",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Package & Pricing Math",
+      "Topic": "Reading face and body language while quoting",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Package & Pricing Math",
+      "Topic": "More discount asked: hold the line, BM call only after conditional yes",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Package & Pricing Math",
+      "Topic": "Mock package discussion from MRP to final total",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Treatment Catalogue",
+      "Topic": "Four service lines & treatment families",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Treatment Catalogue",
+      "Topic": "Hair: Immuno Therapy, Meso, PRP + Exo PC (4 sittings, 1-month gap)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Treatment Catalogue",
+      "Topic": "Pigmentation: same-day single session vs 14-session package",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Treatment Catalogue",
+      "Topic": "Aesthetic (Botox, fillers, threads): same-day, doctor consult first",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Treatment Catalogue",
+      "Topic": "Exosomal therapy & medicated facial tiers",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Treatment Catalogue",
+      "Topic": "LHR / Body Polishing: 14 sittings, quoted per body part",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Treatment Catalogue",
+      "Topic": "Semi-permanent makeup: BB Glow, lip colour, microblading",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Treatment Catalogue",
+      "Topic": "Quote only catalogue prices; escalate anything outside it",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Treatment Catalogue",
+      "Topic": "Quote 5 catalogue services from memory (price and sittings)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Objection Handling",
+      "Topic": "Seven approved objection scripts & when to use each",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Objection Handling",
+      "Topic": "Acknowledge first, never justify defensively",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Objection Handling",
+      "Topic": "Role-play: diet plan not needed / client lives far away",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Objection Handling",
+      "Topic": "Role-play: family discussion (offer space in the cabin)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Objection Handling",
+      "Topic": "Role-play: price (\"bahut mehnga hai\")",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Objection Handling",
+      "Topic": "Role-play: comparison with another clinic",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Objection Handling",
+      "Topic": "Role-play: trust issue (no extra discount)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Objection Handling",
+      "Topic": "Role-play: guarantee question (never promise 100% results)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "Close paths: one-shot, instalment, BM discount call",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "Payment through CRM only; no off-system payment ever",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "Deliver the assurance message after conversion",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "First-day handoff: doctor, products, dietitian, next visit in CRM",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "Consultation logged in CRM: plan, products, follow-up date, amount",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "Three follow-up routes: balance pending, balance clear, OC",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "Follow-up call (real call, 30 seconds or more) logged in CRM",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "Worried-about-clients list & meeting clients after treatment",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "Daily close: five lines logged in CRM before leaving",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Close & Follow-up",
+      "Topic": "Complaint logged in register within 1 hour; BM informed same day",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Cross-sell & Upsell",
+      "Topic": "Philosophy: care, not pressure; the four rules",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Cross-sell & Upsell",
+      "Topic": "Understand the need first & time the pitch to her satisfaction",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Cross-sell & Upsell",
+      "Topic": "Doctor leads on fillers, Botox and advanced under-eye",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Cross-sell & Upsell",
+      "Topic": "The move: praise, name the need, offer the fix, no pressure, lock next step",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Cross-sell & Upsell",
+      "Topic": "Scripts: fillers and Botox",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Cross-sell & Upsell",
+      "Topic": "Scripts: Body Polishing, LHR and face LHR",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Cross-sell & Upsell",
+      "Topic": "Scripts: advanced under-eye and complete aesthetic",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Cross-sell & Upsell",
+      "Topic": "Stay in touch beyond balance calls (relationship calls)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Hard-Line Rules & Escalation",
+      "Topic": "Eight hard-line violations & termination-track consequence",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Hard-Line Rules & Escalation",
+      "Topic": "Never disclose a discount before her yes; no floor-breach pricing",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Hard-Line Rules & Escalation",
+      "Topic": "Escalation chain: BM, Team Leader, Manisha (never skip)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Hard-Line Rules & Escalation",
+      "Topic": "Authority: what you decide alone vs what needs BM sign-off",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Hard-Line Rules & Escalation",
+      "Topic": "Client privacy & cabin discipline",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "Sales: Practical Sign-off",
+      "Topic": "Observed three live consultations (shadowing)",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Practical Sign-off",
+      "Topic": "Ran a full six-step consultation under observation",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Practical Sign-off",
+      "Topic": "Audit score of 85 or more (Green) on an observed consultation",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Practical Sign-off",
+      "Topic": "Completed daily close in CRM independently",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Sales: Practical Sign-off",
+      "Topic": "Sales trainer final sign-off",
+      "Phase": "Sales Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "Asset Allotment",
+      "Topic": "Employee ID card issued",
+      "Phase": "Asset Allotment",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Basics (all roles)",
+      "Topic": "Sign in and sign out of the CRM",
+      "Phase": "CRM & Tech Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Basics (all roles)",
+      "Topic": "Find your way around the menu and the top bar (search, How to use, Sign out)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Basics (all roles)",
+      "Topic": "Use the \"How to use\" guide and its search words (Hindi and English words work)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Basics (all roles)",
+      "Topic": "\"Couldn't load...\" means the list failed to load, not that it is empty: press Retry",
+      "Phase": "CRM & Tech Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Basics (all roles)",
+      "Topic": "Read the message when the app refuses something: it says what to do next",
+      "Phase": "CRM & Tech Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Reception: Check-in",
+      "Topic": "Check in a patient booked for today",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Check-in",
+      "Topic": "Check in someone with no booking (an existing patient)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Check-in",
+      "Topic": "Add a brand-new patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Check-in",
+      "Topic": "Check in a patient who missed an earlier visit",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Check-in",
+      "Topic": "Check in someone who is booked for a later day but came today",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: The consultation fee and old patients",
+      "Topic": "Take the consultation fee for a new patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: The consultation fee and old patients",
+      "Topic": "Use money she already paid (an advance or token) toward the fee",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: The consultation fee and old patients",
+      "Topic": "Waive the consultation fee",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: The consultation fee and old patients",
+      "Topic": "Check in an old patient whose record is not on the CRM",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: The consultation fee and old patients",
+      "Topic": "Answer \"Sessions from before\" for an imported patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Counsellors, therapists and the floor",
+      "Topic": "Pick or change the counsellor at check-in",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Counsellors, therapists and the floor",
+      "Topic": "Send a counsellor-only patient to the doctor too",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Counsellors, therapists and the floor",
+      "Topic": "Undo a check-in done by mistake",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Counsellors, therapists and the floor",
+      "Topic": "Give a signed-off treatment to a therapist",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Counsellors, therapists and the floor",
+      "Topic": "Pick who numbs a patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Counsellors, therapists and the floor",
+      "Topic": "Plan the therapists' day on the planner",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Counsellors, therapists and the floor",
+      "Topic": "See who is waiting and who is late",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Collecting payments",
+      "Topic": "Collect a payment the counsellor prepared",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Collecting payments",
+      "Topic": "Take a card payment on the machine",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Collecting payments",
+      "Topic": "Record a payment she made another way (manual payment)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Collecting payments",
+      "Topic": "Split one payment two ways",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Collecting payments",
+      "Topic": "Cancel a payment link so she can pay at the desk",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Collecting payments",
+      "Topic": "Send a payment back when she is paying a different amount",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Collecting payments",
+      "Topic": "Fix a wrong cash or card figure after collecting",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Collecting payments",
+      "Topic": "Resend a receipt",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Products and online orders",
+      "Topic": "Sell a product at the counter",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Products and online orders",
+      "Topic": "Hand over a product order the counsellor made",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Products and online orders",
+      "Topic": "Exchange or take back a product",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Products and online orders",
+      "Topic": "Hand over an online order a customer collects at the counter",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Products and online orders",
+      "Topic": "Send a Rapido box",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Bookings, records and help",
+      "Topic": "Change the date of a booking",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Bookings, records and help",
+      "Topic": "Book a next visit from the record",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Bookings, records and help",
+      "Topic": "Take a balance payment after the visit closed",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Bookings, records and help",
+      "Topic": "Look at a past day's check-ins",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Bookings, records and help",
+      "Topic": "Raise a ticket or leave a note on a patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Reception: Bookings, records and help",
+      "Topic": "Report a bug",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: My list and the sign-off",
+      "Topic": "See who I have to treat next",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: My list and the sign-off",
+      "Topic": "Know the doctor has signed off",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Numbing",
+      "Topic": "Apply numbing to my patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Numbing",
+      "Topic": "Numb a patient someone picked me for",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Numbing",
+      "Topic": "Why can't I start — the line says \"<name> to numb\"",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Therapist: Numbing",
+      "Topic": "See how long until the skin is ready",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Numbing",
+      "Topic": "Cancel numbing",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Numbing",
+      "Topic": "Start early, before the numbing timer ends",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Starting a treatment",
+      "Topic": "Find a free room",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Starting a treatment",
+      "Topic": "Start a treatment",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Starting a treatment",
+      "Topic": "Take the machine settings photo",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Starting a treatment",
+      "Topic": "Take before photos",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Recording and completing",
+      "Topic": "Record the units, ml or threads I used",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Recording and completing",
+      "Topic": "Write a note for the doctor",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Recording and completing",
+      "Topic": "Complete a session",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Recording and completing",
+      "Topic": "Complete before the doctor's time is up",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Recording and completing",
+      "Topic": "End a timed treatment when my phone rings \"time up\"",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Recording and completing",
+      "Topic": "Apply numbing for her next session from the Complete step",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Mistakes and changes",
+      "Topic": "Undo a start I pressed by mistake",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Mistakes and changes",
+      "Topic": "Mark a treatment \"Not done today\"",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Mistakes and changes",
+      "Topic": "Save a session from an earlier day",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: History and photos",
+      "Topic": "Open a patient's history",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: History and photos",
+      "Topic": "Flag a photo of the wrong patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Breaks and alarms",
+      "Topic": "Ask for a break",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Breaks and alarms",
+      "Topic": "Come back from a break",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Breaks and alarms",
+      "Topic": "Stop the alarm",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Breaks and alarms",
+      "Topic": "Acknowledge a \"patient waiting\" alert",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Your day and the plan",
+      "Topic": "Check what I have done today",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Your day and the plan",
+      "Topic": "Close an older session that shows \"Close\"",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Your day and the plan",
+      "Topic": "Find a patient on my list quickly",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Your day and the plan",
+      "Topic": "See the doctor's plan for a session",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Your day and the plan",
+      "Topic": "Check the patient's allergies before I start",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Phone, camera and alarms",
+      "Topic": "Turn on alarm sound at the start of every shift",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Phone, camera and alarms",
+      "Topic": "Install the Gleuhr Clinic phone app so alarms ring even when the phone is locked",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Therapist: Phone, camera and alarms",
+      "Topic": "Allow the camera for the machine settings photo (phone Settings > Apps > Gleuhr Clinic > Permissions > Camera)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Therapist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Getting around",
+      "Topic": "Find a patient quickly",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Getting around",
+      "Topic": "Read a patient's record",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: New patients — the consult",
+      "Topic": "See a new patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: New patients — the consult",
+      "Topic": "Write the treatment plan",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: New patients — the consult",
+      "Topic": "Print a prescription",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: New patients — the consult",
+      "Topic": "Finish a consult I started earlier",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Sign off today's session",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Record the skin result",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Change a session after I signed it off",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Undo a sign-off",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Record that there is no treatment today",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Book the next appointment",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Assign or change the therapist",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Open the session count for a package from the old system",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Correct a wrong session count",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Add the real treatment to an old customised plan",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Returning patients — the sign-off",
+      "Topic": "Record a patient's paper card when she has no package",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Your own treatments",
+      "Topic": "Perform a treatment myself",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Your own treatments",
+      "Topic": "Tick my own treatment done without the session form",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Your own treatments",
+      "Topic": "Choose who puts on the numbing cream",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Your own treatments",
+      "Topic": "Close a therapist's logged session",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: After the treatment",
+      "Topic": "Do the post-treatment review",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: After the treatment",
+      "Topic": "What if nothing was prescribed for her routine",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Doctor: After the treatment",
+      "Topic": "Close the visit from my side",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: The huddle and calls",
+      "Topic": "Work the Morning Huddle",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: The huddle and calls",
+      "Topic": "Write a recovery plan for an at-risk patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: The huddle and calls",
+      "Topic": "Record whether I pitched in the chair",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: The huddle and calls",
+      "Topic": "Make a check-in call",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: The huddle and calls",
+      "Topic": "See the calls I missed",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Tickets, team and the end of the day",
+      "Topic": "Raise a ticket",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Tickets, team and the end of the day",
+      "Topic": "Work the tickets sent to me",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Tickets, team and the end of the day",
+      "Topic": "Mark a colleague absent today",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Tickets, team and the end of the day",
+      "Topic": "Close my day",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Tickets, team and the end of the day",
+      "Topic": "Read a therapist's deviation",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Tickets, team and the end of the day",
+      "Topic": "Answer a patient-waiting alert",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Tickets, team and the end of the day",
+      "Topic": "Book a next appointment for a patient from the old system",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Tickets, team and the end of the day",
+      "Topic": "Look up who was treated on a past date",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Tickets, team and the end of the day",
+      "Topic": "Report a problem with the app",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Doctor: Stock when you prescribe",
+      "Topic": "See if a product is in stock when I prescribe it",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Today and the visit",
+      "Topic": "See who is checked in and waiting for me",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Today and the visit",
+      "Topic": "Open a new patient's visit to build her sale",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Today and the visit",
+      "Topic": "Build a package from the doctor's plan",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Today and the visit",
+      "Topic": "Send the build to reception",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Today and the visit",
+      "Topic": "Restage a build that reception sent back",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Today and the visit",
+      "Topic": "Sell a single session instead of a package",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Today and the visit",
+      "Topic": "Sell products on the visit",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Tokens, money on file and ongoing patients",
+      "Topic": "Take a token",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Tokens, money on file and ongoing patients",
+      "Topic": "Send a token payment link (she is not in the clinic)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Tokens, money on file and ongoing patients",
+      "Topic": "Use a token she already paid",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Tokens, money on file and ongoing patients",
+      "Topic": "Change what a token is for",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Tokens, money on file and ongoing patients",
+      "Topic": "Apply an advance or store credit to a payment",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Tokens, money on file and ongoing patients",
+      "Topic": "Collect an instalment from an ongoing patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Tokens, money on file and ongoing patients",
+      "Topic": "Add a new treatment for an ongoing patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Tokens, money on file and ongoing patients",
+      "Topic": "Add a sale after I closed today's visit",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Closing the visit",
+      "Topic": "Close a visit",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Closing the visit",
+      "Topic": "Close a visit when she bought a package and gets treatment today",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Closing the visit",
+      "Topic": "Close a first consult where she bought nothing",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Closing the visit",
+      "Topic": "Close a visit where she only bought products",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Closing the visit",
+      "Topic": "Close a visit when nothing happened (ongoing patient)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Closing the visit",
+      "Topic": "Close a visit where she paid a token",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Closing the visit",
+      "Topic": "Close an old visit from an earlier day",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Closing the visit",
+      "Topic": "Why can't I close the visit yet",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Counsellor: Calls and follow-ups",
+      "Topic": "Work my follow-up calls",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Calls and follow-ups",
+      "Topic": "What do I do when the patient does not answer",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Counsellor: Calls and follow-ups",
+      "Topic": "Add another follow-up during a call",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Calls and follow-ups",
+      "Topic": "Record a cross-sell I pitched on a call",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Calls and follow-ups",
+      "Topic": "Book her next visit from a call",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Calls and follow-ups",
+      "Topic": "Confirm tomorrow's visits",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Calls and follow-ups",
+      "Topic": "Hard-close a patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Calls and follow-ups",
+      "Topic": "Chase a patient's balance",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Payment links and money on the record",
+      "Topic": "Send a payment link for an instalment",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Payment links and money on the record",
+      "Topic": "She wants to pay at the desk, but a link is already out. What do I do",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Counsellor: Payment links and money on the record",
+      "Topic": "Record a payment she sent by bank transfer, UPI to the clinic, or cash outside the desk",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Payment links and money on the record",
+      "Topic": "Check whether accounts verified a payment I recorded",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Payment links and money on the record",
+      "Topic": "Change a package's price",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Payment links and money on the record",
+      "Topic": "Correct a treatment on a package",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Bookings, products, the record",
+      "Topic": "Book an appointment",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Bookings, products, the record",
+      "Topic": "Move or cancel a booking",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Bookings, products, the record",
+      "Topic": "Ring up a counter product sale (no visit)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Bookings, products, the record",
+      "Topic": "Raise a ticket",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Bookings, products, the record",
+      "Topic": "Close a ticket that someone resolved for me",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Bookings, products, the record",
+      "Topic": "Log a call I made from my own phone",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Bookings, products, the record",
+      "Topic": "Add a note on a patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: The huddle and the day end",
+      "Topic": "Run my part of the Morning Huddle",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: The huddle and the day end",
+      "Topic": "Close my day",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Counsellor: Stock when you sell",
+      "Topic": "See if a product is in stock before I sell it",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Approvals",
+      "Topic": "Approve an item waiting on me",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Approvals",
+      "Topic": "Send an item back",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Approvals",
+      "Topic": "Which kinds of item come to me, and what does approving each one do",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Branch Manager: Approvals",
+      "Topic": "Why can't I decide a cash correction or an exchange",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Branch Manager: Approvals",
+      "Topic": "See what I raised myself, and where it stands",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Approvals",
+      "Topic": "See what was decided this week",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Approvals",
+      "Topic": "Mark myself away for the day",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Exit meetings, amount checks and rejected advances",
+      "Topic": "Run an exit meeting",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Exit meetings, amount checks and rejected advances",
+      "Topic": "What if I did not meet the patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Branch Manager: Exit meetings, amount checks and rejected advances",
+      "Topic": "Confirm an exit meeting the counsellor logged",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Exit meetings, amount checks and rejected advances",
+      "Topic": "What about my own patient who did not buy",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Branch Manager: Exit meetings, amount checks and rejected advances",
+      "Topic": "Read an amount-check flag",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Exit meetings, amount checks and rejected advances",
+      "Topic": "What do I do with a rejected advance",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Branch Manager: Cash and the bank slip",
+      "Topic": "Upload the bank deposit slip",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Cash and the bank slip",
+      "Topic": "Fix a wrong deposit slip",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Your team today",
+      "Topic": "Mark a counsellor or receptionist absent today",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Your team today",
+      "Topic": "See which counsellor is behind today",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Your team today",
+      "Topic": "Check calls saved as done with no phone record",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Your team today",
+      "Topic": "See calls that were late or missed",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Targets and handing over a desk",
+      "Topic": "Draft and submit my team's targets",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Targets and handing over a desk",
+      "Topic": "Change targets after submitting them",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Targets and handing over a desk",
+      "Topic": "Hand over a leaving counsellor's desk",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Sales, stock and the floor",
+      "Topic": "See today's sales for my clinic",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Sales, stock and the floor",
+      "Topic": "See every payment taken at my clinic",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Sales, stock and the floor",
+      "Topic": "See discounts given over the offer",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Sales, stock and the floor",
+      "Topic": "Check stock and mark a shortage ordered",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Sales, stock and the floor",
+      "Topic": "See who is waiting too long on the floor",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Sales, stock and the floor",
+      "Topic": "Look up who checked in on a past day",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Sales, stock and the floor",
+      "Topic": "See pickups and Rapido orders at my clinic",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: The day lock",
+      "Topic": "Lock the day",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: The day lock",
+      "Topic": "What does each End of Day check mean, and who clears it",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Branch Manager: The day lock",
+      "Topic": "Count the cash drawer",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: The day lock",
+      "Topic": "Lock a day I missed",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: The day lock",
+      "Topic": "Reopen a day I locked by mistake",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: The day lock",
+      "Topic": "What happens to money that comes in after I lock",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Branch Manager: Your own counsellor desk",
+      "Topic": "See one counsellor's list on my counsellor desk",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Your own counsellor desk",
+      "Topic": "Can I hard-close a patient",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Branch Manager: Your own counsellor desk",
+      "Topic": "Where do I do my own patient work (calls, closing a visit, payments)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Branch Manager: Your own counsellor desk",
+      "Topic": "Add an appointment",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Branch Manager: Your own counsellor desk",
+      "Topic": "Read my counsellors' audit results",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Remote payments",
+      "Topic": "Verify a remote UPI instalment",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Remote payments",
+      "Topic": "Mark a claim Not verified",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Remote payments",
+      "Topic": "Why can't I verify this claim? It says \"You recorded this\"",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Remote payments",
+      "Topic": "One bank transfer paid for two patients. How do I verify both",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Remote payments",
+      "Topic": "The server says the reference is \"already verified\". What now",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Remote payments",
+      "Topic": "Verify a booking deposit",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Remote payments",
+      "Topic": "Look up a claim that was already decided",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: sending and failures",
+      "Topic": "Send a payment for invoicing",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: sending and failures",
+      "Topic": "Find one payment",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: sending and failures",
+      "Topic": "Invoice consultation fees",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: sending and failures",
+      "Topic": "A request says \"Refused\". What do I do",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: sending and failures",
+      "Topic": "A request says \"No answer\". What do I do",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: sending and failures",
+      "Topic": "Record a Tally invoice number by hand",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: held, mapped and reversed",
+      "Topic": "Bill a payment on Manual invoices",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: held, mapped and reversed",
+      "Topic": "Read the payment panel before sending",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: held, mapped and reversed",
+      "Topic": "The row says no Tally name is mapped for a treatment. How do I fix it",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: held, mapped and reversed",
+      "Topic": "A product line is missing its HSN code or tax rate. What do I do",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: held, mapped and reversed",
+      "Topic": "Record a credit note for a payment reversed after invoicing",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: held, mapped and reversed",
+      "Topic": "What are \"Clinic pickup\" and \"Rapido\" under Which book",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Invoicing: held, mapped and reversed",
+      "Topic": "Download a list",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Receipts",
+      "Topic": "Give a payment its clinic receipt number",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Receipts",
+      "Topic": "A patient's WhatsApp receipt failed. How do I send it again",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Receipts",
+      "Topic": "WhatsApp refused the patient's number. What now",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: upload and match",
+      "Topic": "Upload the day's bank statements and processor files",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: upload and match",
+      "Topic": "Work a bank credit that says \"Confirm match\"",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: upload and match",
+      "Topic": "A credit says \"No CRM payment\". How do I decide it",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: upload and match",
+      "Topic": "Send a bulk settlement's group receipt",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: upload and match",
+      "Topic": "A credit says \"Unknown TID\" or \"Unknown MID\". What do I do",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: upload and match",
+      "Topic": "A credit says \"Doesn't add up\" or \"Check charges\". What does it mean",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: unmatched, the lock and Tally",
+      "Topic": "Use the Unmatched page",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: unmatched, the lock and Tally",
+      "Topic": "Lock a bank reconciliation day",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: unmatched, the lock and Tally",
+      "Topic": "Tally refused a receipt, or no success code came back. What do I do",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: unmatched, the lock and Tally",
+      "Topic": "A credit was reversed by the bank, or its CRM payment changed. What do I do",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: unmatched, the lock and Tally",
+      "Topic": "I later found who paid a Suspense credit. How do I cover it",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: unmatched, the lock and Tally",
+      "Topic": "Check payments that have a receipt but no invoice",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Bank reconciliation: unmatched, the lock and Tally",
+      "Topic": "See every Tally receipt made from bank reconciliation",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Money on file, closing the books and corrections",
+      "Topic": "See what money is held on tokens",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Money on file, closing the books and corrections",
+      "Topic": "See where one token was spent",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Money on file, closing the books and corrections",
+      "Topic": "Mark an invoice received on Reconciliation",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM Accounts: Money on file, closing the books and corrections",
+      "Topic": "A collected amount is wrong. How do I fix it",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Money on file, closing the books and corrections",
+      "Topic": "A list says \"Couldn't load…\". What do I do",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM Accounts: Money on file, closing the books and corrections",
+      "Topic": "See how many payments a list holds, and what they add up to",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Data security: passwords, logout, never share logins",
+      "Phase": "CRM & Tech Training",
+      "Designation": "All",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Lead CRM training: lead sources, stages & statuses",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head, Receptionist",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Lead CRM training: login & my-leads view",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head, Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Lead CRM training: call logging, remarks & follow-up dates",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head, Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Lead CRM training: booking an appointment from a lead",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head, Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Lead CRM training: converting a lead to a clinic patient (no duplicates)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head, Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Lead CRM training: daily lead report & missed follow-ups",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Airtable entries: patient records & petty cash",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head, Receptionist",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Zoho inventory basics (view stock; no unauthorised adjustments)",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Branch Manager, Regional Head, Accounts",
+      "Type": "Theory"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "HRMS: attendance, leave request & payslip",
+      "Phase": "CRM & Tech Training",
+      "Designation": "All",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "G-Money portal & Easy No-Cost EMI",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Counsellor, Receptionist, Branch Manager, Regional Head, Accounts",
+      "Type": "Practical"
+    },
+    {
+      "Module": "CRM & Tech Training",
+      "Topic": "Prescription portal & courier details",
+      "Phase": "CRM & Tech Training",
+      "Designation": "Doctor, Receptionist, Counsellor, Branch Manager, Regional Head",
+      "Type": "Practical"
+    }
+  ],
+  "Scoring_Template": [
+    {
+      "Category": "Behavioral",
+      "Criterion": "Punctuality & discipline",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Behavioral",
+      "Criterion": "Communication skills",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Behavioral",
+      "Criterion": "Professionalism & grooming",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Behavioral",
+      "Criterion": "Attitude & initiative",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Behavioral",
+      "Criterion": "Accountability",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Behavioral",
+      "Criterion": "Adaptability",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Cultural Fit",
+      "Criterion": "Alignment with company values",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Cultural Fit",
+      "Criterion": "Teamwork & collaboration",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Cultural Fit",
+      "Criterion": "Respect for process & hierarchy",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Cultural Fit",
+      "Criterion": "Willingness to learn",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Cultural Fit",
+      "Criterion": "Empathy & client-first mindset",
+      "Phase": "Onboarding",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Knowledge",
+      "Criterion": "Daily BM timeline & responsibilities",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Knowledge",
+      "Criterion": "Stock & requisition process",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Knowledge",
+      "Criterion": "Petty cash & reconciliation rules",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Knowledge",
+      "Criterion": "Airtable / CRM / reporting tools",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Knowledge",
+      "Criterion": "Escalation & issue-tracker process",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Execution",
+      "Criterion": "Reporting accuracy & timeliness",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Execution",
+      "Criterion": "Hygiene, photo rounds & checks",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Execution",
+      "Criterion": "Cash & stock accuracy",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Execution",
+      "Criterion": "Team handling & morning briefing",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Execution",
+      "Criterion": "Problem solving & ownership",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Ops Execution",
+      "Criterion": "Follow-up until closure",
+      "Phase": "Operations Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Sales Skills",
+      "Criterion": "Product knowledge",
+      "Phase": "Sales Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Sales Skills",
+      "Criterion": "Communication & pitch",
+      "Phase": "Sales Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Sales Skills",
+      "Criterion": "Objection handling",
+      "Phase": "Sales Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Sales Skills",
+      "Criterion": "Conversion & target orientation",
+      "Phase": "Sales Training",
+      "Designation": "All"
+    },
+    {
+      "Category": "Sales Skills",
+      "Criterion": "Follow-up discipline",
+      "Phase": "Sales Training",
+      "Designation": "All"
+    }
+  ],
+  "Question_Bank": [
+    {
+      "Department": "HR",
+      "Question": "In your own words, explain the vision, mission and core values of Gleuhr and give one example of how you will apply them in your role.",
+      "Key Points (for assessor)": "Covers vision, mission and values from the induction; gives a real example from daily work.",
+      "Designation": "All"
+    },
+    {
+      "Department": "HR",
+      "Question": "Describe Gleuhr: its clinics network and its skincare product line.",
+      "Key Points (for assessor)": "Knows the clinic network and the skincare line; understands how the business fits together.",
+      "Designation": "All"
+    },
+    {
+      "Department": "HR",
+      "Question": "What does the code of conduct expect from you, and what would you do if you saw a colleague break it?",
+      "Key Points (for assessor)": "Knows the code; reports through the escalation matrix instead of ignoring it.",
+      "Designation": "All"
+    },
+    {
+      "Department": "HR",
+      "Question": "Explain the attendance and leave process, including how attendance is marked in HRMS.",
+      "Key Points (for assessor)": "HRMS login, daily attendance marking, leave request and approval.",
+      "Designation": "All"
+    },
+    {
+      "Department": "HR",
+      "Question": "What is the POSH policy and how can an employee raise a concern?",
+      "Key Points (for assessor)": "Purpose of the policy, complaint route, confidentiality.",
+      "Designation": "All"
+    },
+    {
+      "Department": "HR",
+      "Question": "How do data privacy and confidentiality apply to patient information in your role?",
+      "Key Points (for assessor)": "Never shares client details; no photos or data on personal devices; discusses only where needed.",
+      "Designation": "All"
+    },
+    {
+      "Department": "HR",
+      "Question": "A patient is upset and raising her voice. How do you handle it and who do you escalate to?",
+      "Key Points (for assessor)": "Stays calm, listens, empathises, follows the escalation matrix, logs the complaint.",
+      "Designation": "All"
+    },
+    {
+      "Department": "HR",
+      "Question": "Describe the dress code and grooming standards and why they matter.",
+      "Key Points (for assessor)": "Knows the standard; links it to professionalism and client trust.",
+      "Designation": "All"
+    },
+    {
+      "Department": "HR",
+      "Question": "How are salary, PF and payroll processed, and what do you need to do on your side?",
+      "Key Points (for assessor)": "Matches the payroll process taught in induction.",
+      "Designation": "All"
+    },
+    {
+      "Department": "HR",
+      "Question": "How should you communicate with colleagues and clients by email and chat?",
+      "Key Points (for assessor)": "Professional tone, clear subject and summary, timely replies, right people copied.",
+      "Designation": "All"
+    },
+    {
+      "Department": "Sales",
+      "Question": "Walk me through the six steps of a consultation in order and what you do in each.",
+      "Key Points (for assessor)": "Rapport, Diagnose, Treatment Process, Discuss Package, Handle Objections, Close + Assurance + Follow-up.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "What do you find out in the rapport step, and why do you not jump to her skin concern in the first 5 minutes?",
+      "Key Points (for assessor)": "Profession, location, medical history, previous treatment, skincare history, what brought her in; builds trust; 5-7 minutes.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "How do you diagnose a concern? Describe the four beats.",
+      "Key Points (for assessor)": "Name it confidently (no hedge words), explain why from her context, testimonial, inside-out solution; no outcome guarantee.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "Explain the treatment process: internal and external tracks and the visit schedule.",
+      "Key Points (for assessor)": "Diet with dietitian + customised serum, doctor-led; 14 sessions in 5-7 visits; same day, 1 week, 15-20 days; recommend 6-month diet.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "Explain the order of the package discussion and when the one-shot offer may be revealed.",
+      "Key Points (for assessor)": "Breakdown first, MRP, discount anchored to her booking, calculator, products, diet plan, total, one-shot only after her engagement / yes.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "A client says \"bahut mehnga hai\". What do you say and do?",
+      "Key Points (for assessor)": "Acknowledge, per-session value, ask her budget expectation, listen, negotiate gently, one-shot first, BM only after her conditional yes.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "A client says she must discuss with her family. How do you handle it?",
+      "Key Points (for assessor)": "Offer space in the cabin with tea and snacks, offer to speak to family, do not push her out, check in, never displace her.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "A client with a trust issue asks for more discount. What is the correct response?",
+      "Key Points (for assessor)": "No additional discount; standard offer only; never change a number already quoted; acknowledge her past experience.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "Name five hard-line violations and say what happens if one is committed.",
+      "Key Points (for assessor)": "Off-system payment, outcome guarantee, floor-breach pricing, early discount disclosure, fake conversion, lead poaching, privacy breach, walking out; same-day Head of Audit review, termination track.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "After a client converts, what must you do in the next 60 minutes and what must be in CRM?",
+      "Key Points (for assessor)": "Payment through CRM, assurance message, walk her to the doctor, products, dietitian connect within 24 hours, next visit and amount locked in CRM.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "What are the three follow-up routes and the purpose of each?",
+      "Key Points (for assessor)": "Balance pending (twice a week, reduce drop-out); balance clear (weekly, cross-sell and retention); only consultation (recover the lead, address the reason).",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "How and when do you pitch a cross-sell or upsell without pressure? Give an example.",
+      "Key Points (for assessor)": "Understand the need, pitch when she is happy with results, doctor leads clinical treatments, praise then need then fix, no pressure, lock the next step.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "Name the four KRAs and five core KPIs of a counsellor.",
+      "Key Points (for assessor)": "KRAs: Convert, Hold, Document, Stand by the brand. KPIs: conversion into package, total revenue, overall conversion rate, upsell / cross-sell, follow-up discipline.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Sales",
+      "Question": "Quote the price and number of sittings of any three treatments from the catalogue.",
+      "Key Points (for assessor)": "Uses the catalogue exactly; does not improvise; escalates anything outside it.",
+      "Designation": "Counsellor, Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Operations",
+      "Question": "Walk me through a branch manager's day from 9:30 AM to 7:00 PM.",
+      "Key Points (for assessor)": "Opening, 9:45 AM photo and confirmation, morning briefing, photo rounds every 2 hours, reports by 7 PM, FDM handover.",
+      "Designation": "Branch Manager, Regional Head, Receptionist"
+    },
+    {
+      "Department": "Operations",
+      "Question": "What do you check and report at clinic opening?",
+      "Key Points (for assessor)": "Room readiness, 9:45 AM photo and confirmation, morning briefing with reception, housekeeping and counsellors.",
+      "Designation": "Branch Manager, Regional Head, Receptionist"
+    },
+    {
+      "Department": "Operations",
+      "Question": "How is stock recorded, and what do you do when there is a stock mismatch?",
+      "Key Points (for assessor)": "Daily stock sheet and morning count, pieces / bottles not boxes, expiry; report to RH and Operations; no unauthorised Zoho adjustments or transfers.",
+      "Designation": "Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Operations",
+      "Question": "Explain the stock-intent and requisition cycle with dates.",
+      "Key Points (for assessor)": "Reminder on the 1st and 15th, intent 3rd-5th and 16th-18th, RH approval, fulfilment targets around the 10th and 22nd.",
+      "Designation": "Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Operations",
+      "Question": "Explain the petty cash rules: weekly amount, approvals and the weekly cycle.",
+      "Key Points (for assessor)": "Rs 4,000 weekly, approval above Rs 500, replenishment below Rs 1,000, Airtable entries with bills; Tuesday submission, Thursday reconciliation, Friday payment.",
+      "Designation": "Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Operations",
+      "Question": "How do you do the day-end Cash, Card and UPI reconciliation?",
+      "Key Points (for assessor)": "6:30 PM cut-off, denomination-wise cash, explain variance, sealed envelope, card slip, photos; late billing through the FDM slip checked at 9:30 AM.",
+      "Designation": "Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Operations",
+      "Question": "Which reports are due at day end, and by when?",
+      "Key Points (for assessor)": "BM Daily Log, EOD report and stock report (separate) by 7 PM; WhatsApp summary to RH; handover note for FDM.",
+      "Designation": "Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Operations",
+      "Question": "How do you raise and close an issue in the tracker, and when do you escalate?",
+      "Key Points (for assessor)": "Owner, target date, status; escalate machine, security and patient-safety issues; closure evidence and follow-up until resolved.",
+      "Designation": "Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Operations",
+      "Question": "What do you do when a machine fails or CCTV is not recording?",
+      "Key Points (for assessor)": "Machine tracker entry, report the fault, technician troubleshooting before repair, CCTV always recording and verified after app use, document security incidents.",
+      "Designation": "Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Operations",
+      "Question": "How do you manage attendance, the roster and dress code for your team?",
+      "Key Points (for assessor)": "Daily attendance and late reasons, weekly roster including Sunday, duty confirmation, dress code and badges, coordination with RH and HR.",
+      "Designation": "Branch Manager, Regional Head"
+    },
+    {
+      "Department": "Operations",
+      "Question": "Why must patient records be entered the same day, and what must each entry contain?",
+      "Key Points (for assessor)": "Correct patient status, customer type, clinic name, payment mode and amount; old-client check using the clinic-card photo.",
+      "Designation": "Branch Manager, Regional Head, Receptionist"
+    },
+    {
+      "Department": "Operations",
+      "Question": "What are the non-negotiable operating principles?",
+      "Key Points (for assessor)": "No missed reports, no backdated entries, issues tracked to closure.",
+      "Designation": "Branch Manager, Regional Head"
+    }
+  ],
+  "Lists": [
+    {
+      "Stages": "Induction",
+      "Handover Status": "Draft",
+      "Trainee Status": "Active",
+      "Designation": "Regional Head",
+      "Rating": "Excellent",
+      "Points (out of 10)": "10.0",
+      "Final Recommendation": "Confirm",
+      "Custom Designation": "HR Manager",
+      "Use Checklist Of": "Regional Head"
+    },
+    {
+      "Stages": "Onboarding",
+      "Handover Status": "Send",
+      "Trainee Status": "Completed",
+      "Designation": "Branch Manager",
+      "Rating": "Good",
+      "Points (out of 10)": "7.0",
+      "Final Recommendation": "Extend Training"
+    },
+    {
+      "Stages": "Asset Allotment",
+      "Handover Status": "Pending",
+      "Trainee Status": "On Hold",
+      "Designation": "Counsellor",
+      "Rating": "Average",
+      "Points (out of 10)": "4.0",
+      "Final Recommendation": "Not Confirmed"
+    },
+    {
+      "Stages": "CRM & Tech Training",
+      "Handover Status": "Completed",
+      "Trainee Status": "Dropped",
+      "Designation": "Receptionist"
+    },
+    {
+      "Stages": "Sales Training",
+      "Designation": "HR Manager"
+    },
+    {
+      "Stages": "Operations Training",
+      "Designation": "Therapist"
+    },
+    {
+      "Stages": "Assessment",
+      "Designation": "Doctor"
+    },
+    {
+      "Stages": "Final Feedback",
+      "Designation": "Accounts"
+    },
+    {
+      "Stages": "Final Review & Confirmation",
+      "Designation": "Other"
+    },
+    {
+      "Stages": "Onboard Final Email"
+    }
+  ]
+}

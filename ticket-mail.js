@@ -1,6 +1,7 @@
+import {appUrl} from './app-url.js';
 import {trainingEmail} from './training-email.js';
 import {now} from './store.js';
-export async function deliverTicketMail({store,mailer,ticketId,origin='https://hrgleuhr.vercel.app'}){
+export async function deliverTicketMail({store,mailer,ticketId,origin=appUrl()}){
  const t=store.data.tickets?.find(t=>t.id===ticketId);if(!t)return;
  if(['Sent','Queued','Sending','Delivery uncertain'].includes(t.emailStatus))return;
  const assignee=store.data.users.find(u=>u.id===t.assigneeId&&u.active&&u.role==='admin');
@@ -13,7 +14,7 @@ export async function deliverTicketMail({store,mailer,ticketId,origin='https://h
 }
 
 // Run under the same database lock as ticket updates; queue delivery outside it.
-export async function escalateOverdueTickets({store,mailer,clock=Date.now(),origin='https://hrgleuhr.vercel.app'}) {
+export async function escalateOverdueTickets({store,mailer,clock=Date.now(),origin=appUrl()}) {
  const {SYSTEM_ADMIN_EMAIL,isSystemAdmin}=await import('./system-admin.js');
  const recipient=store.data.users.find(isSystemAdmin);
  if(!recipient||!mailer.configured)return {queued:0};

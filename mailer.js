@@ -1,3 +1,4 @@
+import {appUrl} from './app-url.js';
 import {trainingEmail} from './training-email.js';
 import nodemailer from "nodemailer";
 import {
@@ -60,7 +61,7 @@ export function createMailer(env = process.env, {transportFactory=nodemailer.cre
         cc: message.cc || undefined,
         subject: message.subject,
         text: message.body,
-        html: message.html || trainingEmail({title:message.subject,body:message.body,url:'https://hrgleuhr.vercel.app'}),
+        html: message.html || trainingEmail({title:message.subject,body:message.body,url:appUrl()}),
         attachments: (message.attachments||[]).filter(a=>Buffer.isBuffer(a.content)).map(a=>({filename:a.filename,content:a.content,contentType:a.contentType})),
         messageId: `<${message.id}@${(env.SMTP_FROM.match(/@([a-z0-9.-]+)/i)||[])[1]||"gleuhr.com"}>`,
       };

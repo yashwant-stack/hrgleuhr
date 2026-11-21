@@ -18,7 +18,12 @@
       "destination": "/api/index"
     }
   ],
-  "crons": [],
+  "crons": [
+    {
+      "path": "/api/cron/mail",
+      "schedule": "* * * * *"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

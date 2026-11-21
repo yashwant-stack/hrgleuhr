@@ -1,3 +1,4 @@
+import {appUrl} from './app-url.js';
 import {isSystemAdmin,canManageUsers} from './system-admin.js';
 import {completeAssetAllotment,finalEmailDelivered} from './onboarding-completion.js';
 import {issuedCertificates,issuedCertificate} from './certificate-records.js';
@@ -286,7 +287,7 @@ export function createApp({
       catch(e){store.transaction(()=>{msg.status=e.deliveryState==='uncertain'?'Delivery uncertain':'Failed';msg.error=String(e.message).slice(0,500);});fail('Email test failed: '+String(e.message).slice(0,250),502);}
     }
 
-    const origin=hosted?'https://hrgleuhr.vercel.app':'http://localhost:'+(process.env.PORT||3000);
+    const origin=hosted?appUrl():'http://localhost:'+(process.env.PORT||3000);
     if(name==='completionFeedback'){const t=trainee(u,p);if(typeof p.enabled!=='boolean')fail('Choose a feedback preference');return store.transaction(db=>{t.completionFeedbackEnabled=p.enabled;t.version++;audit(db,u,'Completion feedback preference changed',t.id,String(p.enabled));return {ok:true};});}
     if(name==='finalFeedback'){const t=trainee(u,p);return store.transaction(db=>saveFinalFeedback(db,u,t,p,origin));}
     if(name==='emailTransitionAssessment'){const t=trainee(u,p);return store.transaction(db=>emailAssessment(db,u,t,p,origin));}

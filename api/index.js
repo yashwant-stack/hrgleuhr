@@ -12,7 +12,7 @@ function secretMatches(value, expected) {
   return a.length === b.length && timingSafeEqual(a, b);
 }
 export default async function handler(req, res) {
-  const pathname = new URL(req.url, 'https://hrgleuhr.vercel.app').pathname;
+  const pathname = new URL(req.url, 'http://localhost').pathname;
   const cron = ['/api/cron/reminders','/api/cron/mail'].includes(pathname);
   if (cron && (req.method !== 'GET' || !secretMatches(req.headers.authorization, process.env.CRON_SECRET && `Bearer ${process.env.CRON_SECRET}`))) {
     res.writeHead(401, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });

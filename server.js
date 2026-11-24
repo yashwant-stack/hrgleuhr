@@ -1,5 +1,6 @@
 import {appUrl} from './app-url.js';
 import {isSystemAdmin,canManageUsers} from './system-admin.js';
+import {SECTIONS,allowedSections,canAccess,normalizeAccess,roleSections,ACTION_SECTIONS} from './access.js';
 import {completeAssetAllotment,finalEmailDelivered} from './onboarding-completion.js';
 import {issuedCertificates,issuedCertificate} from './certificate-records.js';
 import {materialSharing} from './material-sharing.js';
@@ -99,7 +100,7 @@ function score(v, max = 10, min = 0) {
 }
 function safeUser(u) {
   const { password, ...rest } = u;
-  return {...rest,systemAdmin:isSystemAdmin(u)};
+  return {...rest,systemAdmin:isSystemAdmin(u),access:u.access??null,sections:allowedSections(u)};
 }
 function admin(u) {
   if (u.role !== "admin") fail("HR/admin access required", 403);
@@ -195,9 +196,10 @@ export function createApp({
     const ids = new Set(ts.map((t) => t.id));
     return {
       user: {...safeUser(u),canManageUsers:canManageUsers(store.data,u)},
-      tickets: u.role==="admin"?(store.data.tickets||[]).filter(t=>isSystemAdmin(u)||t.creatorId===u.id||t.assigneeId===u.id):[],
+      tickets: u.role==="admin"&&canAccess(u,"tickets")?(store.data.tickets||[]).filter(t=>isSystemAdmin(u)||t.creatorId===u.id||t.assigneeId===u.id):[],
       mentorAssignments:store.data.trainees.filter(t=>t.mentor?.userId===u.id&&canonicalPhase(t.mentor.phase)===canonicalPhase(t.stage)).map(t=>({id:t.id,name:t.name,designation:t.designation,stage:t.stage,branch:t.branch,trainerName:t.trainerName,mentor:t.mentor,flowEnabled:t.flowEnabled,trainingFlowStatus:flowStatus(t,store.data),progress:practicalMentorProgress(t,store.data)})),
       clinics,departments,
+      accessSections:SECTIONS,
       lifecycleSettings:store.data.lifecycleSettings||{},
       lifecycleNotifications:(store.data.lifecycleNotifications||[]).filter(n=>u.role==='admin'||String(n.to).split(/[,;]\s*/).includes(u.email)).map(({body,...n})=>n),
       designationPlans:store.data.designationPlans||{},
@@ -265,6 +267,8 @@ export function createApp({
   }
   async function action(u, name, p) {
     if (name === "state") return snapshot(u);
+    if (ACTION_SECTIONS[name] && !canAccess(u, ACTION_SECTIONS[name]))
+      fail("You do not have access to this section", 403);
     if(name==='curriculumDownload'){
       const t=trainee(u,p),course=curriculumFor(t.designation,store.data);if(!course)fail('No supplied curriculum for this designation',404);
       return {filename:course.key+'-training-plan.pdf',contentType:'application/pdf',base64:(await letterPdf({subject:'Training plan - '+course.designation,body:curriculumText(course),unicode:true,name:t.name,designation:t.designation})).toString('base64')};
@@ -682,6 +686,8 @@ export function createApp({
             active: true,
             password: passwordHash(password),
           };
+        const access = normalizeAccess(role, p.access);
+        if (access) user.access = access;
         db.users.push(user);
         audit(db, u, "User added", null, mail);
         return safeUser(user);
@@ -703,6 +709,19 @@ export function createApp({
         if (p.name) user.name = required(p.name, "Name");
         if (["admin", "trainer"].includes(p.role)) user.role = p.role;
         if (typeof p.active === "boolean") user.active = p.active;
+        if (Object.hasOwn(p, "access") && !isSystemAdmin(user)) {
+          const access = normalizeAccess(user.role, p.access);
+          if (user.id === u.id && access && !access.includes("users"))
+            fail("You cannot remove your own access to Users & trainers");
+          if (access) user.access = access;
+          else delete user.access;
+        } else if (Array.isArray(user.access)) {
+          // A role change keeps only the chosen sections the new role still allows.
+          const kept = user.access.filter(k => roleSections(user.role).includes(k));
+          const access = kept.length ? normalizeAccess(user.role, kept) : null;
+          if (access) user.access = access;
+          else delete user.access;
+        }
         if (p.password) {
           if (p.password.length < 10) fail("Use at least 10 characters");
           user.password = passwordHash(p.password);

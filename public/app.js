@@ -369,7 +369,7 @@ function shell(content) {
         ]
       : []),
 
-  ];
+  ].filter(([id])=>canOpen(id));
   const initials=S.user.name.trim().split(/\s+/).slice(0,2).map(n=>n[0]).join('');
   $("app").innerHTML =
     `<div class="shell" data-view="${esc(view)}"><aside><a class="brand portal-brand" href="/" aria-label="Gleuhr HR Portal"><span class="portal-logo"><img src="/gleuhr-logo.png" alt="Gleuhr" width="1930" height="1934"></span><span>HR PORTAL</span></a><div class="nav-caption">WORKSPACE</div><nav aria-label="Main navigation">${links.map(([id,label])=>(id==='users'?'<div class="nav-caption">MANAGEMENT</div>':'')+button(uiIcon(id)+`<span>${esc(label)}</span>`,'nav',`data-view="${id}" ${view===id?'aria-current="page"':''}`,view===id?'active':'')).join('')}</nav><div class="aside-note"><span class="workspace-dot"></span>${cloudHosted?'Team workspace':'Local workspace'}<small>People. Progress. Possibility.</small></div></aside><main><header><div class="breadcrumb">${button('← Back','historyBack',navigationIndex>0?'':'disabled','portal-back')}Workspace <span>/</span> <strong>${esc(links.find(x=>x[0]===view)?.[1]||'Training')}</strong></div><div class="account"><span class="avatar">${esc(initials)}</span><span class="account-name"><strong>${esc(S.user.name)}</strong><small>${S.user.systemAdmin?'System Admin':isAdmin()?'HR administrator':'Trainer'}</small></span>${isAdmin()&&(S.unlockRequests||[]).some(r=>r.status==='Pending')?button('Approve corrections ('+S.unlockRequests.filter(r=>r.status==='Pending').length+')','unlockNotifications','','primary'):''}${button('Notifications ('+((S.unlockRequests||[]).filter(r=>r.status==='Pending').length+(S.lifecycleNotifications||[]).filter(n=>!n.readBy?.includes(S.user.id)).length)+')','unlockNotifications')}${button('Sign out','logout','','quiet')}</div></header><div class="page-content">${view==='tickets'||(['dashboard','trainees'].includes(view)&&!selected)?'':scoreThresholdPanel()}${['materials','academy'].includes(view)?journeyLockBanner(current()):''}${content}</div><div class="footer"><strong>gleuhr</strong><span>People & Academy · ${cloudHosted?'Team workspace':'Local workspace'}</span><span>Made for meaningful progress.</span></div></main></div>`;
@@ -892,7 +892,7 @@ function usersView() {
       .map((u) =>
         item(
           u.name,
-          `${u.email} · ${u.systemAdmin?'System Admin':u.role}${u.active ? "" : " · Disabled"}`,
+          `${u.email} · ${u.systemAdmin?'System Admin':u.role}${u.active ? "" : " · Disabled"} · ${Array.isArray(u.access)?`Custom access: ${(u.sections||[]).length} section${(u.sections||[]).length===1?'':'s'}`:'Full access'}`,
           u.branch || "",
           S.user.canManageUsers?button("Edit access", "editUser", `data-id="${u.id}"`):"",
         ),
@@ -909,9 +909,28 @@ function normalizeEvaluationRoute(t, section, selectedStep) {
  const step=target?.blockedBy||requested;
  return {section:'Training stages',selectedStep:step};
 }
+// Checkbox list of portal sections for the Add/Edit user dialogs.
+function accessFields(role,access,locked){
+  const chosen=Array.isArray(access)?access:null;
+  return `<fieldset class="access-fields"><legend>Section access</legend><p class="muted">${locked?'The System Admin always has access to every section.':'Choose which sections this user can open. Sections marked admin are available to admins only.'}</p><div class="access-grid">`+
+    (S.accessSections||[]).map(s=>{const ok=role==='admin'||!s.adminOnly;return `<label class="answer access-option"><input type="checkbox" name="access_${esc(s.key)}" data-admin-only="${s.adminOnly}" ${ok&&(!chosen||chosen.includes(s.key))?'checked':''} ${locked||!ok?'disabled':''}> ${esc(s.label)}${s.adminOnly?' <small>admin</small>':''}</label>`;}).join('')+
+    `</div>${locked?'':'<div class="actions"><button type="button" class="quiet" data-access-set="all">Select all</button><button type="button" class="quiet" data-access-set="none">Clear all</button></div>'}</fieldset>`;
+}
+function bindAccessFields(locked=false){
+  if(locked)return;
+  const boxes=[...document.querySelectorAll('#modalFields .access-fields input[type=checkbox]')],role=$('f-role');
+  // Admin-only sections follow the Role field: enabled (and granted) for admin, cleared for trainer.
+  role?.addEventListener('change',()=>{const admin=role.value==='admin';for(const b of boxes.filter(b=>b.dataset.adminOnly==='true')){b.disabled=!admin;b.checked=admin;}});
+  for(const b of document.querySelectorAll('#modalFields [data-access-set]'))b.addEventListener('click',()=>{for(const x of boxes)if(!x.disabled)x.checked=b.dataset.accessSet==='all';});
+}
+const chosenAccess=p=>(S.accessSections||[]).filter(s=>p['access_'+s.key]==='on').map(s=>s.key);
+const withoutAccessBoxes=p=>Object.fromEntries(Object.entries(p).filter(([k])=>!k.startsWith('access_')));
+// Section access chosen per user in "Edit user access" (server sends the allowed list).
+function canOpen(id){const known=(S?.accessSections||[]).some(s=>s.key===id);return !known||!Array.isArray(S?.user?.sections)||S.user.sections.includes(id);}
 function render() {
   if(section==='Final onboarding'&&current()?.stage!=='Onboard Final Email')section='Training stages';
   if (!S) return;
+  if(!canOpen(view)){const first=(S.user.sections||[])[0];if(first&&first!==view){view=first;selected=null;moduleId=null;test=null;}}
   if(['Reskilling','Revaluation'].includes(trainingPurpose(current()||{}))&&(section==='Welcome letter'||selectedFlowStep==='Start')){section=current().flowEnabled?'Training stages':'Checklist';selectedFlowStep=current().trainingFlowStatus?.find(s=>!s.notRequired&&!s.complete)?.key||'Educate';}
   if(['Tests','Evaluations'].includes(section)&&!test)section='Assessment';
   if(view==='tests'&&!current()?.flowEnabled&&!['Assessment','Scores'].includes(section)&&!test)section='Assessment';
@@ -1579,10 +1598,12 @@ async function handle(action, b) {
           ],
           true,
         ) +
-        field("branch", "Clinic / department"),
-      (p) => mutate("createUser", p),
+        field("branch", "Clinic / department") +
+        accessFields("trainer", null, false),
+      (p) => mutate("createUser", { ...withoutAccessBoxes(p), access: chosenAccess(p) }),
       "Create user",
     );
+    bindAccessFields();
     return;
   }
   if (action === "editUser") {
@@ -1597,9 +1618,11 @@ async function handle(action, b) {
           "",
           "password",
         ) +
-        `<label class="answer"><input type="checkbox" name="active" ${u.active ? "checked" : ""}> Account active</label>`,
-      (p) => mutate("updateUser", { id: key, ...p, active: p.active === "on" }),
+        `<label class="answer"><input type="checkbox" name="active" ${u.active ? "checked" : ""}> Account active</label>` +
+        accessFields(u.role, u.access, u.systemAdmin),
+      (p) => mutate("updateUser", { id: key, ...withoutAccessBoxes(p), active: p.active === "on", ...(u.systemAdmin ? {} : { access: chosenAccess(p) }) }),
     );
+    bindAccessFields(u.systemAdmin);
     return;
   }
   if (action === "addQuestion") {

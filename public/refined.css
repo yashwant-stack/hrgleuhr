@@ -321,3 +321,12 @@ dialog:has(.notification-center){width:760px;max-width:94vw;background:#fffdfb}
 .final-feedback-next h3{margin:0}
 .final-feedback-card pre{white-space:pre-wrap;max-height:300px;overflow:auto}
 @media(max-width:700px){.final-feedback-grid{grid-template-columns:1fr}}
+.access-fields{margin:18px 0 4px;padding:16px 18px;border:1px solid #e5d5cf;border-radius:14px;background:#fcf8f5}
+.access-fields legend{padding:0 6px;font-weight:700;color:#5b3f48}
+.access-fields>p{margin:0 0 10px;font-size:12px}
+.access-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 14px}
+.access-grid .access-option{margin:0;padding:8px 10px;font-size:13px}
+.access-grid .access-option small{margin-left:4px;padding:1px 6px;border-radius:8px;background:#f1e4dd;color:#8a6168;font-size:10px;text-transform:uppercase;letter-spacing:.5px}
+.access-grid .access-option:has(input:disabled){opacity:.55}
+.access-fields .actions{margin-top:10px;gap:8px}
+@media(max-width:560px){.access-grid{grid-template-columns:1fr}}
